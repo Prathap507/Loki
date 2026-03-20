@@ -15,9 +15,9 @@ const blocked_region = ['']; // add regional codes seperated by comma, eg. ['IN'
 const blocked_asn = []; // add ASN numbers from http://www.bgplookingglass.com/list-of-autonomous-system-numbers, eg. [16509, 12345]
 const authConfig = {
   "siteName": "Google Drive Index", // Website name
-  "client_id": "", // Client id from Google Cloud Console
-  "client_secret": "", // Client Secret from Google Cloud Console
-  "refresh_token": "", // Authorize token
+  "client_id": "https://70048807407-h7bkancut04b1fdmuia60em9jma2lf6m.apps.googleusercontent.com", // Client id from Google Cloud Console
+  "client_secret": "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", // Client Secret from Google Cloud Console
+  "refresh_token": "1//0gj_Rs4CNMt3WCgYIARAAGBASNgF-L9IrH5ito9OeuC-DDuh_ae120Ng29AVOVr-AATchDm0XbCcSidElNZgBQ1DeZaLxMHaoIg", // Authorize token
   "service_account": false, // true if you're using Service Account instead of user account
   "service_account_json": randomserviceaccount, // don't touch this one
   "files_list_page_size": 100,
@@ -28,7 +28,7 @@ const authConfig = {
   "disable_anonymous_download": false, // disables direct links without session
   "file_link_expiry": 7, // expire file link in set number of days
   "search_all_drives": true, // search all of your drives instead of current drive if set to true
-  "enable_login": false, // set to true if you want to add login system
+  "enable_login": true, // set to true if you want to add login system
   "enable_signup": false, // set to true if you want to add signup system
   "enable_social_login": false, // set to true if you want to add social login system
   "google_client_id_for_login": "", // Google Client ID for Login
