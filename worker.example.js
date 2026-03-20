@@ -20,10 +20,10 @@ const LOG_PREFIX = 'LOG:';
 const ADMIN_KEY = 'ADMIN_USERS';
 
 const authConfig = {
-    "siteName": "SS Bots", // Your Website name
-    "client_id": "", // Your Client id from Google Cloud Console
-    "client_secret": "", // Your Client Secret from Google Cloud Console
-    "refresh_token": "", // Your Authorize token - Get from OAuth Playground
+    "siteName": "RolexMvz", // Your Website name
+    "client_id": "http://70048807407-h7bkancut04b1fdmuia60em9jma2lf6m.apps.googleusercontent.com", // Your Client id from Google Cloud Console
+    "client_secret": "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", // Your Client Secret from Google Cloud Console
+    "refresh_token": "1//0gj_Rs4CNMt3WCgYIARAAGBASNgF-L9IrH5ito9OeuC-DDuh_ae120Ng29AVOVr-AATchDm0XbCcSidElNZgBQ1DeZaLxMHaoIg", // Your Authorize token - Get from OAuth Playground
     "service_account": false, // true if you're using Service Account instead of user account
     "service_account_json": randomserviceaccount, // don't touch this one
     "files_list_page_size": 100,
@@ -34,7 +34,7 @@ const authConfig = {
     "disable_anonymous_download": false, // disables direct links without session
     "file_link_expiry": 365, // expire file link in set number of days
     "search_all_drives": true, // search all of your drives instead of current drive if set to true
-    "enable_login": false, // set to true if you want to add login system
+    "enable_login": true, // set to true if you want to add login system
     "enable_signup": false, // set to true if you want to add signup system
     "enable_social_login": false, // set to true if you want to add social login system
     "google_client_id_for_login": "", // Google Client ID for Login
@@ -58,17 +58,17 @@ const authConfig = {
     // NOTE: Local users_list is ignored when login_database is "KV"
     // When using KV, manage users via admin panel instead
     "users_list": [
-        // { "username": "example_user", "password": "secure_password" },
+        { "username": "admin", "password": "admin" },
     ],
     "roots": [
         {
-            "id": "8iugu89y09oioi6676", // Get from Google Drive folder URL
+            "id": "1XMfmp3bVN9-01DtTVJX_Npx9WTHn19cl", // Get from Google Drive folder URL
             "name": "SSBot",
             "username": "", "password": "", // Optional folder-level auth
             "protect_file_link": false
         },
         {
-            "id": "YOUR_FOLDER_ID_2",
+            "id": "1RsdtwKOBdy3jqe7uu5wGEN-50v-Nef",
             "name": "📁 Folder 2",
             "protect_file_link": false
         },
