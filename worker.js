@@ -76,12 +76,12 @@ const uiConfig = {
   "version": CDN_VERSION, // auto-updated by build script — get latest code using generator at https://bdi-generator.hashhackers.com
   "debug_mode": true, // set to true to show a debug panel in the footer with API requests, errors, and page info
   // If you're using Image then set to true, If you want text then set it to false
-  "logo_image": true, // true if you're using image link in next option.
+  "logo_image": false, // true if you're using image link in next option.
   "logo_height": "", // only if logo_image is true
   "logo_width": "100px", // only if logo_image is true
   "favicon": 'https://cdn.jsdelivr.net/npm/@googledrive/index@' + CDN_VERSION + '/images/favicon.ico',
   // if logo is true then link otherwise just text for name
-  "logo_link_name": 'https://cdn.jsdelivr.net/npm/@googledrive/index@' + CDN_VERSION + '/images/bhadoo-cloud-logo-white.svg',
+  "logo_link_name": 'LokiMvz',
   "fixed_header": true, // If you want the footer to be flexible or fixed.
   "header_padding": "80", // Value 80 for fixed header, Value 20 for flexible header. Required to be changed accordingly in some themes.
   "nav_link_1": "Home", // change navigation link name
