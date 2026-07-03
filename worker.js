@@ -43,33 +43,21 @@ const authConfig = {
   "cors_domain": "*", // CORS domain for API requests, use * for all domains or specify your domain
   "users_list": [
     {
-      "username": "admin",
-      "password": "admin123",
+      "username": "loki",
+      "password": "loki123",
     }
   ],
   "roots": [
     {
       "id": "root",
-      "type": "root", // "root" | "folder" | "shared_drive"
-      "name": "My Drive",
+      "type": "root", // folder inside My Drive
+      "name": "LokiMvz",
       "protect_file_link": false
     },
     {
-      "id": "1a8tF3p6l4wenfEQV5TpGKPT9otfze5em",
-      "type": "folder", // folder inside My Drive
-      "name": "Drive Folder",
-      "protect_file_link": false
-    },
-    {
-      "id": "1SPeBCBNFU3s0m2NPuIJzgyAQTUWU3wMx",
+      "id": "1XMfmp3bVN9-01DtTVJX_Npx9WTHn19cl",
       "type": "folder", // folder from shared drive context
-      "name": "Shared Folder",
-      "protect_file_link": false
-    },
-    {
-      "id": "0AI96FDDLWPh5Uk9PVA",
-      "type": "shared_drive", // Shared Drive (Team Drive)
-      "name": "Shared Drive",
+      "name": "4k",
       "protect_file_link": false
     },
   ]
