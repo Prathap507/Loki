@@ -15,10 +15,10 @@ const blocked_region = ['']; // add regional codes seperated by comma, eg. ['IN'
 const blocked_asn = []; // add ASN numbers from http://www.bgplookingglass.com/list-of-autonomous-system-numbers, eg. [16509, 12345]
 const CDN_VERSION = '2.5.9'; // auto-updated by npm run build
 const authConfig = {
-  "siteName": "GDI Test", // Website name
-  "client_id": "58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleusercontent.com", // Client id from Google Cloud Console
-  "client_secret": "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", // Client Secret from Google Cloud Console
-  "refresh_token": "1//0gemE8Fxa0jK5CgYIARAAGBASNwF-L9IrXjKnUXwsGEvSDqIt1bAfKwcqoKbCNDDh0fTWHc77oaEta1OFH-TdvzGFEGRBCBEEycg", // Authorize token
+  "siteName": "RolexMvz", // Website name
+  "client_id": "70048807407-h7bkancut04b1fdmuia60em9jma2lf6m.apps.googleusercontent.com", // Client id from Google Cloud Console
+  "client_secret": "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", // Client Secret from Google Cloud Console
+  "refresh_token": "1//0gj_Rs4CNMt3WCgYIARAAGBASNgF-L9IrH5ito9OeuC-DDuh_ae120Ng29AVOVr-AATchDm0XbCcSidElNZgBQ1DeZaLxMHaoIg", // Authorize token
   "service_account": false, // true if you're using Service Account instead of user account
   "service_account_json": randomserviceaccount, // don't touch this one
   "files_list_page_size": 100,
